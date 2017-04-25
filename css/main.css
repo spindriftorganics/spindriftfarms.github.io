@@ -312,13 +312,13 @@
 		}
 	}
 
-	#overlay {
+	/*#overlay {
 		-moz-animation: overlay 1.5s 1.5s forwards;
 		-webkit-animation: overlay 1.5s 1.5s forwards;
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		/*background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");*/
+		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -329,7 +329,7 @@
 		top: 0;
 		width: 100%;
 	}
-
+*/
 /* Main */
 
 	#main {
@@ -852,7 +852,7 @@
 		}
 
 		#bg {
-			background-size: 2500px auto;
+			background-size: auto;
 			width: 2500px;
 		} }
 
@@ -938,8 +938,8 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			background-size:auto;
+			/*width: 900px;*/
 		}
 
 	/* Header */
@@ -1036,7 +1036,7 @@
 		}
 
 		#bg {
-			background-size: 412.5px auto;
+			background-size:auto;
 			width: 1237.5px;
 		}
 
