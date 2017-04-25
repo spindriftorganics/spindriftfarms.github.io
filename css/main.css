@@ -188,7 +188,7 @@
 	/* Set your background with this */
 
 		background: #348cb2 url("images/bg.jpg") bottom left;
-		/*background-repeat: repeat-x;*/
+        background-repeat: no-repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -770,7 +770,7 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			/*background-size: 1500px, auto;*/
 			width: 4500px;
 		} }
 
@@ -852,7 +852,7 @@
 		}
 
 		#bg {
-			background-size: auto;
+			/*background-size: 2500px, auto;*/
 			width: 2500px;
 		} }
 
@@ -938,7 +938,7 @@
 		}
 
 		#bg {
-			background-size:auto;
+			/*background-size:1280px, auto;*/
 			width: 900px;
 		}
 
@@ -966,7 +966,7 @@
 
 /* Mobile (Portrait) */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 1280px) {
 
 		/* BG */
 
@@ -1036,7 +1036,7 @@
 		}
 
 		#bg {
-			background-size:auto;
+			/*background-size: 1280px, auto;*/
 			width: 1237.5px;
 		}
 
