@@ -13,10 +13,10 @@
 	@import "libs/skel";
 
 	@include skel-breakpoints((
-		wide: '(max-width: 1680px)',
-		normal: '(max-width: 1280px)',
-		mobile: '(max-width: 736px)',
-		mobilep: '(max-width: 480px)'
+		wide: '(max-width: 2500px)',
+		normal: '(max-width: 2500px)',
+		mobile: '(max-width: 2500px)',
+        mobilep: '(max-width: 2500px)'
 	));
 
 	@include skel-layout((
