@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Jenna+Sue:300,900");
-@import url("https://fonts.googleapis.com/css?family=Source+Josephin+Sans:300,900");
+
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -60,8 +59,8 @@
 /* Basic */
 
 	body, input, select, textarea {
-        color: #000;
-        font-family: 'Source Jenna Sue', sans-serif;
+		color: #fff;
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -69,7 +68,7 @@
 	}
 
 	body {
-        background: #000;
+		background: #fff;
 		overflow: hidden;
 	}
 
@@ -188,7 +187,7 @@
 	/* Set your background with this */
 
 		background: #348cb2 url("images/bg.jpg") bottom left;
-        background-repeat: no-repeat;
+		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -266,8 +265,8 @@
 	}
 
 	#bg {
-		background-size: 1500px auto;
-  width: 100%;
+		background-size: 2250px auto;
+		width: 6750px;
 	}
 
 /* Overlay */
@@ -312,7 +311,7 @@
 		}
 	}
 
-	/*#overlay {
+	#overlay {
 		-moz-animation: overlay 1.5s 1.5s forwards;
 		-webkit-animation: overlay 1.5s 1.5s forwards;
 		-ms-animation: overlay 1.5s 1.5s forwards;
@@ -329,7 +328,7 @@
 		top: 0;
 		width: 100%;
 	}
-*/
+
 /* Main */
 
 	#main {
@@ -343,7 +342,7 @@
 
 		#main:before {
 			content: '';
-            display: inline-block;
+			display: inline-block;
 			height: 100%;
 			margin-right: 0;
 			vertical-align: middle;
@@ -658,7 +657,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-                        color: #000;
+						color: #fff;
 					}
 
 				#header nav a:active {
@@ -668,7 +667,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-                        color: #000;
+						color: #fff;
 					}
 
 				#header nav a span {
@@ -699,7 +698,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 13pt;
 			}
 
 		/* BG */
@@ -770,8 +769,8 @@
 		}
 
 		#bg {
-			background-size: 1500px, auto;
-			width: 100%;
+			background-size: 1500px auto;
+			width: 4500px;
 		} }
 
 /* Normal */
@@ -852,8 +851,8 @@
 		}
 
 		#bg {
-			background-size: 2500px, auto;
-			width: 2500px;
+			background-size: 750px auto;
+			width: 2250px;
 		} }
 
 /* Mobile */
@@ -938,7 +937,7 @@
 		}
 
 		#bg {
-			/*background-size:1280px, auto;*/
+			background-size: 300px auto;
 			width: 900px;
 		}
 
@@ -966,7 +965,7 @@
 
 /* Mobile (Portrait) */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 480px) {
 
 		/* BG */
 
@@ -1036,8 +1035,8 @@
 		}
 
 		#bg {
-			background-size: 1280px, auto;
-			width: 100%;
+			background-size: 412.5px auto;
+			width: 1237.5px;
 		}
 
 	/* Header */
